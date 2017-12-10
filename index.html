@@ -8,7 +8,8 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/index.htmlcss/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript" src="js/js_activarMenu.js"></script>
 
   </head>
 
@@ -19,12 +20,12 @@
         </div>
          <nav>
             <ul class="nav nav-justified">
-              <li class="active"><a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/index.html">Inicio</a></li>
-              <li><a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/horarios.html">Horarios</a></li>
-              <li><a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/ayudantes.html">Galer&iacutea</a></li>
-              <li><a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/publicaciones.html">Publicaciones</a></li>
-              <li><a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/aulas.html">Aulas</a></li>
-              <li><a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/contactanos.html">Contactos</a></li>
+              <li class="active"><a href="index.html">Inicio</a></li>
+              <li><a id="itemsHorario" href="horarios.html" values="0">Horarios</a></li>
+              <li><a href="ayudantes.html">Galer&iacutea</a></li>
+              <li><a href="publicaciones.html">Publicaciones</a></li>
+              <li><a href="aulas.html" onclick="return false;">Aulas</a></li>
+              <li><a href="contactanos.html">Contactos</a></li>
             </ul>
           </nav>
       </header>
@@ -33,7 +34,7 @@
         
           <div class="row">
             <div class="user">
-              <a href="https://alfonsopulido13.github.io/Proyecto_Primer-Parcial_DAW/login.html">
+              <a href="login.html">
                 <span class="glyphicon glyphicon-user"></span>
                 <label>Login</label>
               </a>
